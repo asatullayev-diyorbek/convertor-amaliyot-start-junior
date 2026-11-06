@@ -1,0 +1,158 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fc;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 430px;
+}
+
+.converter-card {
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.06);
+}
+
+.icon {
+    width: 55px;
+    height: 55px;
+    background: #eaf2ff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    margin-bottom: 22px;
+}
+
+h1 {
+    color: #172b4d;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #8492a6;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+label {
+    display: block;
+    color: #344563;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe5ef;
+    border-radius: 10px;
+    padding: 0 15px;
+}
+
+.input-wrapper input {
+    width: 100%;
+    height: 52px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #172b4d;
+}
+
+.input-wrapper span {
+    color: #8492a6;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+select {
+    width: 100%;
+    height: 52px;
+    padding: 0 14px;
+    border: 1px solid #dfe5ef;
+    border-radius: 10px;
+    outline: none;
+    background: white;
+    color: #344563;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.input-wrapper:focus-within,
+select:focus {
+    border-color: #3478f6;
+}
+
+.convert-btn {
+    width: 100%;
+    height: 52px;
+    border: none;
+    border-radius: 10px;
+    background: #3478f6;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 5px;
+}
+
+.convert-btn:hover {
+    background: #2163df;
+}
+
+.convert-btn span {
+    margin-left: 8px;
+    font-size: 19px;
+}
+
+.result {
+    margin-top: 25px;
+    padding: 20px;
+    background: #f1f6ff;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.result p {
+    color: #8492a6;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.result h2 {
+    color: #2468e8;
+    font-size: 30px;
+}
+
+.result h2 span {
+    font-size: 16px;
+}
+
+.footer-text {
+    text-align: center;
+    color: #a0aaba;
+    font-size: 12px;
+    margin-top: 22px;
+}

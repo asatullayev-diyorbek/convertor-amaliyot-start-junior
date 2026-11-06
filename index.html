@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valyuta konvertori</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="converter-card">
+
+            <div class="icon">💱</div>
+
+            <h1>Valyuta konvertori</h1>
+            <p class="description">
+                So‘mni boshqa valyutalarga aylantiring.
+            </p>
+
+            <div class="form-group">
+                <label for="amount">Summa (so‘m)</label>
+                <div class="input-wrapper">
+                    <input
+                        type="number"
+                        id="amount"
+                        placeholder="Masalan: 1000000"
+                    >
+                    <span>UZS</span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="currency">Valyuta</label>
+                <select id="currency">
+                    <option value="USD">🇺🇸 US Dollar (USD)</option>
+                    <option value="EUR">🇪🇺 Euro (EUR)</option>
+                    <option value="GBP">🇬🇧 British Pound (GBP)</option>
+                    <option value="RUB">🇷🇺 Russian Ruble (RUB)</option>
+                    <option value="TRY">🇹🇷 Turkish Lira (TRY)</option>
+                </select>
+            </div>
+
+            <button class="convert-btn">
+                Hisoblash
+                <span>→</span>
+            </button>
+
+            <div class="result">
+                <p>Natija</p>
+                <h2>0 <span>USD</span></h2>
+            </div>
+
+            <p class="footer-text">
+                Valyuta kurslari API orqali olinadi
+            </p>
+
+        </div>
+    </div>
+
+</body>
+</html>
